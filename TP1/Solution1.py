@@ -1,19 +1,14 @@
-name = "Botra"
-age = "20" #change from int into str
-major = 'Data Science'
-gpa = 3.55
-is_scholar = False
+name = "Sok Dara"
+age = 20
+major = "Data Science"
+gpa = 3.67
+is_scholar = True
 
-print('-----------------------------')
-print("Name: ", name)
-print("Age: ", age)
-print("Major: ", major)
-print("GPA: ", gpa)
-print("Scholar: ", is_scholar)
-print('-----------------------------')
+print(f"Name    : {name}")
+print(f"Age     : {age}")
+print(f"Major   : {major}")
+print(f"GPA     : {gpa:.2f}")
+print(f"Scholar : {is_scholar}")
 
-print("Name Type: ", type(name))
-print("Age Type: ", type(age))
-print("Major Type: ", type(major))
-print("GPA Type: ", type(gpa))
-print("Scholar Type: ", type(is_scholar))
+for value in (name, age, major, gpa, is_scholar):
+    print(repr(value), "->", type(value).__name__)
