@@ -1,8 +1,8 @@
-name = "Sok Dara"
+name = "Pen Sakahbotra"
 age = 20
 major = "Data Science"
-gpa = 3.67
-is_scholar = True
+gpa = 3.69
+is_scholar = False
 
 print(f"Name    : {name}")
 print(f"Age     : {age}")
