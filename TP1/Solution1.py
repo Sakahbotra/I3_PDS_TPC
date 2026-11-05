@@ -12,3 +12,4 @@ print(f"Scholar : {is_scholar}")
 
 for value in (name, age, major, gpa, is_scholar):
     print(repr(value), "->", type(value).__name__)
+
